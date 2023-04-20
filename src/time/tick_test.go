@@ -172,7 +172,6 @@ func TestTickFunc(t *testing.T) {
 	}()
 
 	func() {
-		// wait for 4 seconds
 		Sleep(4 * Second)
 
 		mu.Lock()
